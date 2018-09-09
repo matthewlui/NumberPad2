@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6817EBEC04AF6860DBB9372E /* Pods_NumberPad2_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A76014F9C198138CC72007 /* Pods_NumberPad2_Tests.framework */; };
+		79A035622144DEB900AE0D0B /* CustomeNumberPadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A035612144DEB900AE0D0B /* CustomeNumberPadViewController.swift */; };
 		8DA6CE2D8CD796C8FAE25BBC /* Pods_NumberPad2_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502515CF0FEC3145AEA2C4E6 /* Pods_NumberPad2_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,12 +29,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FE7776970C33ADD668264D7 /* NumberPad2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NumberPad2.podspec; path = ../NumberPad2.podspec; sourceTree = "<group>"; };
-		1153DFCDA617FF0633B4AE23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0FE7776970C33ADD668264D7 /* NumberPad2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NumberPad2.podspec; path = ../NumberPad2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1153DFCDA617FF0633B4AE23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1629A75E5C9087C140383317 /* Pods-NumberPad2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberPad2_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NumberPad2_Example/Pods-NumberPad2_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2D15E6683E56D5801914221F /* Pods-NumberPad2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberPad2_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NumberPad2_Example/Pods-NumberPad2_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		405AAF9B053715D0026C7AF6 /* Pods-NumberPad2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberPad2_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NumberPad2_Tests/Pods-NumberPad2_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		424AC7F7DE5F0FA53B66A9E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		424AC7F7DE5F0FA53B66A9E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		502515CF0FEC3145AEA2C4E6 /* Pods_NumberPad2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NumberPad2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* NumberPad2_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberPad2_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +47,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		76A76014F9C198138CC72007 /* Pods_NumberPad2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NumberPad2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A035612144DEB900AE0D0B /* CustomeNumberPadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeNumberPadViewController.swift; sourceTree = "<group>"; };
 		83D2D54BC3722962D26B97E4 /* Pods-NumberPad2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberPad2_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NumberPad2_Tests/Pods-NumberPad2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				79A035612144DEB900AE0D0B /* CustomeNumberPadViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -347,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A035622144DEB900AE0D0B /* CustomeNumberPadViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -494,6 +498,7 @@
 			baseConfigurationReference = 2D15E6683E56D5801914221F /* Pods-NumberPad2_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NumberPad2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -509,6 +514,7 @@
 			baseConfigurationReference = 1629A75E5C9087C140383317 /* Pods-NumberPad2_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NumberPad2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

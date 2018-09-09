@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NumberPad2'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NumberPad2.'
+  s.summary          = 'Easy to use Number Pad (Or what ever pad you want) for iOS. Purely written in Swift'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
